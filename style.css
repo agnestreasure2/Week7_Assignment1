@@ -10,10 +10,7 @@ body{
     background: rgb(250,250,250);
 }
 
-/* main{
-    max-width: 1440px;
-    margin: auto;
-} */
+
 nav{
     position: fixed;
     width: 100%;
@@ -26,7 +23,6 @@ nav{
     justify-items:right;
     border-bottom: 1px solid rgb(219,219,219);
     padding: 0.7rem 1.5rem 0.7rem 0rem;
-   /* position: fixed; */
    background: white;
   
 
@@ -58,7 +54,7 @@ nav{
     display: flex;
     justify-content: left;
     gap: 0.5rem;
-    /* margin-right:  30rem; */
+    
 }
 
 #nav_icons{
@@ -67,9 +63,7 @@ nav{
     margin-right: 5rem;
    
 }
-/* #nav_icons image{
-    padding-right: 4rem;
-} */
+
 .profile_image img{
     width: 25px;
     height: 24px;
@@ -85,23 +79,16 @@ nav{
 }
 .right_cover{
     padding-top: 20px;
-    /* padding-right: 2rem; */
 }
+
 .blue_text{
     padding-right: 2.5rem;
 }
-
-/* Left body section */
-
-/* story */
 
 .story_flex{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    /* gap: 1px; */
-    /* width: 447px; */
-    /* border: 10px solid green; */
     border-radius: 10px;
 }
 
@@ -114,13 +101,8 @@ nav{
     border-radius: 10px;
     background: rgb(255,255,255);
     margin-bottom: 15px;
-
-    /* padding-top: 16px;
-    padding-left:16px ;
-    padding-bottom:18px;
-   padding-right: 16px;;
-     */
 }
+
 .story_update a{
     color: rgb(64,64,64);
     text-decoration: none;
@@ -131,25 +113,20 @@ nav{
 }
 
 .mini p{
-   /* border: 4px solid purple; */
 text-align: center;
     
 }
 .colour_border{
-   
     width: 62px;
     height: 61px;
     border-width: 2.5px;
     border-style: solid;
     border-radius: 100%;
-    /* padding: 4px; */
     border-color: rgb(249,15,127)  rgb(249,15,127)  rgb(255,115,6) rgb(255,185,0);
     padding-bottom: 2px;
     padding-left: 0.7px;
-    
-    
+   
 }
-
 
 /* feed */
 .feed_card{
@@ -189,13 +166,10 @@ text-align: center;
 .outline{
     outline:auto white;
     outline-offset: -3px;
-    /* outline-width: 10px; */
 }
+
 .flex_in{
     display: flex;
-   
-    /* flex-direction: row; */
-
     justify-items:right;
     align-items:center;
     gap: 17.5rem;
@@ -210,7 +184,6 @@ text-align: center;
 
 }
 .flex_in div a img{
-    /* border: 1px solid blue; */
     width: 2rem;
     padding-top: 9px;
 }
